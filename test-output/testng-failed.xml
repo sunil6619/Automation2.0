@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ecomm]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EleTest(failed)">
+    <classes>
+      <class name="testpage.eleTest">
+        <methods>
+          <include name="clickonele"/>
+        </methods>
+      </class> <!-- testpage.eleTest -->
+    </classes>
+  </test> <!-- EleTest(failed) -->
+</suite> <!-- Failed suite [Ecomm] -->
